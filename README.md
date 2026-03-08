@@ -1,16 +1,23 @@
-# React + Vite
+# 🚀 AURA: Adaptive Unified Reasoning Assistant
+**Built for the AI for Bharat Hackathon (Powered by AWS)**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AURA is a context-aware generative AI mentor that permanently adapts to a student's domain and career goals. It provides personalized learning roadmaps, instant smart assessments, and live opportunity intelligence (RAG) to connect learning with real-world internships.
 
-Currently, two official plugins are available:
+## 🔗 Live Links
+* **Live MVP Application:** [Insert your Vercel Link Here]
+* **Demo Video:** [Insert your Video Link Here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Core Features
+1. **Intelligent Onboarding:** Conversational profile building to establish the student's engineering domain and goals.
+2. **Adaptive Learning Roadmaps:** Dynamic, milestone-driven paths that evolve with the student's progress.
+3. **Smart Assessments & Gap Analysis:** Real-time AI grading of free-text technical answers to identify and patch weak areas.
+4. **Opportunity Intelligence (RAG):** Hallucination-free internship matching using live data (e.g., getsig.in).
 
-## React Compiler
+## 🏗️ 100% Serverless AWS Architecture
+This application utilizes a highly scalable, pay-as-you-go serverless architecture:
+* **Frontend:** React + Vite + Tailwind CSS (Hosted on Vercel)
+* **API Gateway:** Amazon API Gateway for secure frontend-to-backend routing.
+* **Compute:** AWS Lambda for serverless AI processing and business logic.
+* **Database:** Amazon DynamoDB for persistent student profiles and context storage.
+* **AI Engine:** Amazon Bedrock (Nova Model) for highly engineered contextual reasoning and evaluation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
