@@ -4,7 +4,7 @@
 AURA is a context-aware generative AI mentor that permanently adapts to a student's domain and career goals. It provides personalized learning roadmaps, instant smart assessments, and live opportunity intelligence (RAG) to connect learning with real-world internships.
 
 ## 🔗 Live Links
-* **Live MVP Application:** [https://ai-mentor-lac-seven.vercel.app/]
+* **Live MVP Application:** https://ai-mentor-lac-seven.vercel.app/
 
 ## ✨ Core Features
 1. **Intelligent Onboarding:** Conversational profile building to establish the student's engineering domain and goals.
